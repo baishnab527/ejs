@@ -1,0 +1,82 @@
+
+
+<div class="container-fluid ">
+    <div class="row">
+
+        <div class="col-md-12 my-5">
+
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-header  text-center">
+                        <h2> Create User Bio </h2>
+                    </div>
+                    <div class="card-body">
+
+                        <form action="/createUser" method="POST" enctype="multipart/form-data" >
+
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <label for="name"class="form-label"> Admin Name</label>
+                                    <input type="text" class="form-control" placeholder="Admin Name" id="name" name="adminName" >
+                                </div>
+                            </div>
+
+
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <label for="name"class="form-label"> Designation </label>
+                                    <input type="text" class="form-control" placeholder="Designation Name" id="name" name="designation" >
+                                </div>
+                            </div>
+
+
+
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <label for="file"class="form-label"> File </label>
+                                    <input type="file" class="form-control" id="file" name="userPhoto" >
+                                </div>
+                            </div>
+
+
+                            <div class="row mt-4 mb-3">
+                                <div class="col-md-4">
+                                 <button type="submit" class="btn btn-sm btn-primary w-100"> Submit Data </button>
+                                </div>
+                                <div class="col-md-4" >
+                                 <button class="btn btn-sm btn-danger w-100" type="reset">Reset form</button>
+                                </div>
+
+                                <div class="col-md-4" >
+                                    <a href="/admin" class="btn btn-sm btn-success w-100" > <i class="fa-regular fa-circle-left"></i> Back to DashBord </a>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                   </div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

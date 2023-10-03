@@ -1,0 +1,205 @@
+
+/*================ Googgle font add here ================= */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap');
+/*================ universerl selector ================= */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.left-sideber{
+  height: 100vh;
+  padding: 10px 5px;
+  background-color:#34495e ;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.profile{}
+.profile h3{
+    color: white;
+    padding: 5px 0px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.profile h3:hover{
+    background-color:  white;
+    color: #130f40;
+}
+
+.button-design{
+    display: block;
+    width: 100%;
+    background-color: white;
+    text-decoration: none;
+    padding: 5px 0px;
+    margin-top: 10px ;
+    color: #130f40 ;
+    font-weight: 700; 
+    transition: all .3s;
+}
+
+a.button-design:hover{
+    background-color: #130f40;
+    color: white;
+}
+.shop-ouner-infomation{}
+.shop-ouner-infomation h5{
+    margin-top: 5px;
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+.shop-ouner-infomation h5:hover{
+background-color: white;
+color: #130f40;
+}
+.shop-ouner-infomation h6{
+    margin-top: 5px;
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+.shop-ouner-infomation h6:hover{
+    background-color: white;
+    color: #130f40;
+}
+
+.social-media-followlink{
+    text-align: center;
+}
+.social-media-followlink ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+}
+.social-media-followlink ul li{
+    list-style: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 4px;
+    transition: all .3s;
+    
+}
+
+.social-media-followlink ul li:hover{
+    background-color: white;
+    border-color:#130f40;
+}
+
+.social-media-followlink ul li:hover a{
+    color: #130f40;
+}
+
+.social-media-followlink ul li:first-child{
+    margin-left: 0;
+}
+
+.social-media-followlink ul li:last-child{
+    margin-right: 0;
+}
+.social-media-followlink ul li a{
+    color: white;
+    font-size: 17px;
+    
+}
+
+.Product-detals-header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* single product information */
+.single-product-infomation{
+    background-color: #ffffff;
+    
+}
+
+.product-discription{
+  
+    color: black;
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.product-discription h4{
+    color: #34495e;
+}
+
+
+
+/* ----------------Shop Page Header design --------------------- */
+.hearder-section{
+    background-color:#34495e;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px 15px;
+    display: inline-block;
+}
+
+.middle-menu {}
+.middle-menu ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.middle-menu ul li{
+    list-style: none;
+    padding: 0px 10px;
+    margin-top: 13px;
+}
+.middle-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.socal-menu ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: end;
+    align-items: center;
+
+}
+.socal-menu ul li{
+    list-style: none;
+    padding: 0px 15px;
+    margin-top: 13px;
+}
+.socal-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}

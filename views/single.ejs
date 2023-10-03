@@ -1,0 +1,103 @@
+
+<div class="container-fluid mt-2">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+           <div class="single-product-infomation shadow rounded">
+            <div class="product-title ">
+                <h4 class="text-center" style="font-size: 35px; font-weight: 700; text-decoration: underline; padding: 10px 0px;" > Please See <%= product.name %> information </h4>
+            </div>
+
+           <div class="row">
+            <div class="col-md-7">
+                <div class="product-image">
+                    <img class="w-100 shadow" src="/product/<%= product.photo %>" alt="product image">
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="product-discription">
+                 <div class="h4">Product product-discription</div>
+                 <p>The HP V20 19.5" HD+ LED TN Monitor is the quintessential, everyday monitor that adjusts to your needs, saves space, and doesn't break the bank. Get lifelike color and sharp details on a 19.5" diagonal HD+ (1600 x 900 pixel) screen. You can tilt the screen up to 5° forward or 25° backward to find your best viewing position. You have the freedom to connect devices and other monitors quickly through HDMI and VGA ports. Enjoy greater eye comfort as the Low Blue Light feature reduces whites and makes colors warmer. Experience better response times and higher refresh rates with the addition of the twisted nematic LED display. Environmentally conscious features include ENERGY STAR Certified and mercury-free LED display backlighting. It has 3 years warranty.</p>
+                </div>
+            </div>
+           </div>
+
+
+           <!-- ----------------------Product Information table ------------------------- -->
+
+           <div class="create-table mt-2">
+            <table class="table table-striped table-light table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Srial No</th>
+                        <th>Specification</th>
+                        <th>Discription</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="align-middle">
+                        <td>1</td>
+                        <th>Name</th>
+                        <td><%= product.name%></td>
+                    </tr>
+
+                    <tr class="align-middle">
+                        <td>2</td>
+                        <th>Photo</th>
+                        <td><img src="/product/<%= product.photo %>" style="height: 50px; width: 50px; object-fit: cover; border-radius: 50%;" alt="Product Image"></td>
+                    </tr>
+
+                    <tr class="align-middle">
+                        <td>3</td>
+                        <th>Colors</th>
+                        <td><%= product.colors %></td>
+                    </tr>
+
+                    <tr class="align-middle">
+                        <td>4</td>
+                        <th>Regulr Price</th>
+                        <td><%= product.regularPrice %> Taka</td>
+                    </tr>
+
+                    <tr class="align-middle">
+                        <td>5</td>
+                        <th>Sale Price</th>
+                        <td><%= product.salePrice %> Taka</td>
+                    </tr>
+
+                    <tr class="align-middle">
+                        <td>6</td>
+                        <th>Size inch</th>
+                        <td><%= product.size %> Inch</td>
+                    </tr>
+
+                    <tr class="align-middle">
+                        <td>7</td>
+                        <th>Weight</th>
+                        <td><%= product.weight %> Kgs</td>
+                    </tr>
+
+                    
+                    <tr class="align-middle">
+                        <td>8</td>
+                        <th>Brand</th>
+                        <td><%= product.brand %></td>
+                    </tr>
+            
+                </tbody>
+            </table>
+           </div>
+
+           <div class="row mb-5">
+            <div class="col-md-6 pb-4">
+                <a href="/admin"class="button-design text-center" > <i class="fa-solid fa-angles-left"></i> Back To Dash Bord</a>
+            </div>
+            <div class="col-md-6">
+                <a href="/create" class="button-design text-center"> <i class="fa-solid fa-angles-left"></i> Back To Create Product</a>
+            </div>
+           </div>
+
+           </div>
+        </div>
+        
+    </div>
+</div>

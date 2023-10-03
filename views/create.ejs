@@ -1,0 +1,110 @@
+
+
+<div class="container-fluid ">
+    <div class="row">
+
+        <div class="col-md-12 my-5">
+
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-header  text-center">
+                        <h2> Create Product Data </h2>
+                    </div>
+                    <div class="card-body">
+
+                        <form action="/product" method="POST" enctype="multipart/form-data" >
+
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <label for="name"class="form-label"> Name </label>
+                                    <input type="text" class="form-control" placeholder="Product Name" id="name" name="name" >
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="colors"class="form-label"> Colors </label>
+                                    <input type="text" class="form-control" placeholder="Product Colors" id="colors" name="colors" >
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <label for="rp"class="form-label"> Regular Price </label>
+                                    <input type="text" class="form-control" placeholder="Product regular Price" id="rp" name="regularPrice" >
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="sp"class="form-label"> Sale Price </label>
+                                    <input type="text" class="form-control" placeholder="Product Sale Price" id="sp" name="salePrice" >
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <label for="size"class="form-label"> Size </label>
+                                    <input type="text" class="form-control" placeholder="Product Size" id="size" name="size" >
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="stock"class="form-label">Stock </label>
+                                    <input type="text" class="form-control" placeholder="Product Stock " id="stock" name="stock" >
+                                </div>
+                            </div>
+
+
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <label for="weight"class="form-label"> Weight </label>
+                                    <input type="text" class="form-control" placeholder="Product weight" id="weight" name="weight" >
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="brand"class="form-label"> Brand </label>
+                                    <input type="brand" class="form-control" placeholder="Product Brand " id="brand" name="brand" >
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <label for="file"class="form-label"> File </label>
+                                    <input type="file" class="form-control" id="file" name="productPhoto" >
+                                </div>
+
+                            </div>
+
+                            <div class="row mt-4 mb-3">
+                                <div class="col-md-4">
+                                 <button type="submit" class="btn btn-sm btn-primary w-100"> Submit Data </button>
+                                </div>
+                                <div class="col-md-4" >
+                                 <button class="btn btn-sm btn-danger w-100" type="reset">Reset form</button>
+                                </div>
+
+                                <div class="col-md-4" >
+                                    <a href="/admin" class="btn btn-sm btn-success w-100" > <i class="fa-regular fa-circle-left"></i> Back to DashBord </a>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                   </div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
